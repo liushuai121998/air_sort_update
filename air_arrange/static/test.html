@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>test</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" name="" value="" id='text'>
+    <div class='box'>
+
+    </div>
+    <script>
+        var box = document.getElementsByClassName('box')[0]
+        console.log(box)
+        box.onmousedown = function() {
+            console.log('hhhhh')
+        }
+    </script>
+</body>
+
+</html>
